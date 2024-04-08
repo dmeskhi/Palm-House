@@ -288,8 +288,8 @@ html {
 }
 
 .service {
-    width: 100%;
-    margin-bottom: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .service:nth-child(1) {
@@ -323,9 +323,9 @@ html {
 }
 
 .service-text {
-    font-family: "Josefin Slab", serif;
-    font-size: 1.8rem;
-    text-align: justify;
+  font-family: "Josefin Slab", serif;
+  font-size: 1.8rem;
+  text-align: justify;
 }
 
 .our-services-img-wrapper {
@@ -339,3 +339,16 @@ html {
   object-fit: cover;
   opacity: 0.8;
 }
+
+.about-us {
+  align-items: center;
+}
+
+.about-us-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+
