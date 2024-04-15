@@ -17,7 +17,7 @@ html {
   position: fixed;
   top: 6rem;
   right: 6rem;
-  z-index: 200;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -34,7 +34,7 @@ html {
   height: 0.2rem;
   background-color: #fff;
   box-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
-}
+  }
 
 .change .line {
   background-color: rgba(0, 0, 0, 0.8);
@@ -74,6 +74,7 @@ html {
 .change .hamburger-menu:hover span {
   opacity: 1;
   visibility: visible;
+  
 }
 
 .hamburger-menu span::before {
@@ -187,6 +188,7 @@ html {
   right: -40rem;
   background-color: #fff;
   transition: right 0.5s;
+  z-index: 1;
 }
 
 .change .sidebar {
@@ -352,18 +354,125 @@ html {
 .about-us-container {
   width: 80%;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
   margin-bottom: 16rem;
 }
 
 .about-us-container img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
+  opacity: 0.9;
+  border-radius: 0.8rem;
 }
 
 .about-us-txt {
   font-family: "Josefin Slab", serif;
   font-size: 2rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+}
 
+.our-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4F6F6
+}
+
+.our-mission-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 16rem;
+}
+
+.our-mission-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  border-radius: 0.8rem;
+}
+
+.our-mission-txt {
+  font-family: "Josefin Slab", serif;
+  font-size: 2rem;
+  padding-right: 4rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.1rem;
+}
+
+.testimonials {
+  background-color: #F4F6F6;
+  
+  
+}
+
+/*.testimonial::before {
+  content: "\201c";
+  font-size: 10rem;
+  color: #8fac36;
+}*/
+
+.testimonials-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20rem;
+}
+
+/*.inner {
+  max-width: 75rem;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1.25rem;
+}*/
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.col {
+  max-width: 30%;
+}
+
+.testimonial {
+  background: #fff;
+  padding: 1.875rem;
+}
+
+.testimonial img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: "Mulish", serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding: 1.25rem 0;
+}
+
+.stars {
+  color: #8fac36;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.testimonial p {
+  font-family: "Josefin Slab", serif;
+  font-size: 2rem;
+  padding-bottom: 6rem;
 }
