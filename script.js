@@ -15,6 +15,13 @@ document.querySelector(".scroll-btn").addEventListener("click", () => {
   }, 1000);
 });
 
+/*document.querySelector(".menu-link").addEventListener("click", () => {
+    document.querySelector("html").style.scrollBehavior = "smooth";
+    setTimeout(() => {
+      document.querySelector("html").style.scrollBehavior = "unset";
+    }, 1000);
+  });*/
+
 /*$(document).ready(function(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
