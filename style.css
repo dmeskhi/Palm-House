@@ -31,6 +31,11 @@ html {
   visibility: hidden;
 }
 
+/*.display .spinner-container {
+  opacity: 0;
+  visibility: hidden;
+}*/
+
 .circles {
   width: 8rem;
   height: 8rem;
