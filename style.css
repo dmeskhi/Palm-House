@@ -315,9 +315,11 @@ html {
   animation: moveBanner 1s 0.7s forwards;
 }
 
-.banner button {
-  width: 25rem;
+.banner a {
+  display:block;
+  width: 20rem;
   height: 7rem;
+  padding: 2rem;
   background-color: #8fac36;
   border: none;
   font-family: "Mulish", serif;
@@ -805,6 +807,7 @@ html {
   box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
 }
+
 
 @media(max-width: 1500px) {
   .testimonial {
