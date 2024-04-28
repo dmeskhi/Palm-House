@@ -319,17 +319,18 @@
           <div class="contact-left"></div>
           <div class="contact-right">
             <h1 class="contact-heading">Contact</h1>
-            <form>
+            <form action="https://api.web3forms.com/submit" method="POST">
               <div class="input-group">
-                <input type="text" class="field" />
+                <input type="hidden" name="access_key" value="32daa466-e0bd-485c-9b1c-3c724579af67">
+                <input type="text" name="name" class="field" required />
                 <label class="input-label">Full Name</label>
               </div>
               <div class="input-group">
-                <input type="text" class="field" />
+                <input type="email" name="email" class="field" required />
                 <label class="input-label">Email</label>
               </div>
               <div class="input-group">
-                <textarea class="field"></textarea>
+                <textarea name="message" class="field"></textarea>
                 <label class="message">Message</label>
               </div>
               <input type="submit" class="submit-btn" value="Submit" />
